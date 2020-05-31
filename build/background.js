@@ -1,5 +1,5 @@
 chrome.contextMenus.create({
-  id: "Take Action",
+  id: "takeAction",
   title: "Take Action!",
   contexts: ["all"],
 });
