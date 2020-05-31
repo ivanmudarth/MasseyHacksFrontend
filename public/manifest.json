@@ -1,13 +1,8 @@
 {
   "name": "MasseyHacks Extension",
-  "version": "1.0",
-  "description": "Take action on current events.",
   "manifest_version": 2,
-
-  "browser_action": {
-    "default_popup": "index.html",
-    "default_title": "Open the popup"
-  },
+  "version": "0.0.1",
+  "description": "Take action on current events.",
   "content_scripts": [
     {
       "js": ["content.js"],
@@ -15,8 +10,9 @@
     }
   ],
   "background": {
-    "scripts": ["background.js"],
-    "run_at": "document_end"
+    "scripts": ["background.js"]
   },
+  "permissions": ["contextMenus", "tabs"],
+  "web_accessible_resources": ["*.html"],
   "content_security_policy": "script-src 'self' 'sha256-p5hOtlld76OubQRjuoOzFkH1phfMCtQyYciqJYR0hgk='; object-src 'self'"
 }
