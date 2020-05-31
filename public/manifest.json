@@ -8,5 +8,15 @@
     "default_popup": "index.html",
     "default_title": "Open the popup"
   },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "run_at": "document_end"
+  },
   "content_security_policy": "script-src 'self' 'sha256-p5hOtlld76OubQRjuoOzFkH1phfMCtQyYciqJYR0hgk='; object-src 'self'"
 }
