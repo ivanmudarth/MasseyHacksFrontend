@@ -6,7 +6,7 @@
 }
 .modalBody {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #181a1b;
   height: 100%;
   margin: 0px;
 }
@@ -28,15 +28,15 @@ a {
 }
 .titleLink {
   text-decoration: none;
-  color: #ffffff;
+  color: #181a1b;
   font-size: 23px;
   margin-bottom: 1px;
-  border-bottom: 2px solid #ffe9e9;
+  border-bottom: 2px solid #181a1b;
   transition: border 0.3s;
 }
 
 .titleLink:hover {
-  border-bottom: 2px solid #ff6464;
+  border-bottom: 2px solid #ffe9e9;
 }
 .left {
   width: 8%;

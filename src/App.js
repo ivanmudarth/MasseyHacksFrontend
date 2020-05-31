@@ -1,13 +1,14 @@
 import "./App.css";
 import React, { Component } from "react";
 import "./App.css";
+import icon from "./takeAction.png";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      organization: "relief fund",
-      message: "donate to the following charity",
+      organization: "name of charity/organization",
+      message: "enter short descripion of charity/organization",
       link: "",
     };
   }
@@ -42,9 +43,13 @@ class App extends Component {
     return (
       <div className="modalBody">
         <div className="row">
+          <div className="left">
+            <img className="icon" src={icon} />
+          </div>
+          ;
           <div className="right">
             <p className="titleText">
-              Take Action: &nbsp;
+              <b>Take Action: &nbsp;</b>
               <a className="titleLink" href={this.state.link} target="_blank">
                 {this.state.organization}
               </a>
@@ -55,12 +60,6 @@ class App extends Component {
       </div>
     );
   }
-}
-
-{
-  /* <div className="left">
-  <img className="icon" src={icon} />
-</div>; */
 }
 
 export default App;
