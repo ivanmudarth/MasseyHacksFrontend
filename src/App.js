@@ -7,9 +7,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      organization: "name of charity/organization",
-      message: "enter short descripion of charity/organization",
-      link: "",
+      organization: " ",
+      message: " ",
+      link: " ",
     };
   }
   componentDidMount() {

@@ -1,5 +1,5 @@
 {
-  "name": "MasseyHacks Extension",
+  "name": "TakeAction",
   "manifest_version": 2,
   "version": "0.0.1",
   "description": "Take action on current events.",
