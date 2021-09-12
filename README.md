@@ -1,30 +1,62 @@
-Link to demo: https://youtu.be/fNkOuzv-bUA
+<p align="center">
+  <a href="https://github.com/ivanmudarth/TakeAction">
+    <img src="https://user-images.githubusercontent.com/33183884/132997950-34ae00af-16df-46c9-86c3-584da561c60b.png" alt="Logo" width="100" height="100">
+  </a>
+  
+  <h1 align="center">TakeAction</h1>
+  
+  <p align="center">
+    Take action against irresponsible reporting when browsing articles.
+  </p>
+ 
+ <p align="center">
+    <a href="https://devpost.com/software/takeaction-gqpwfo?ref_content=user-portfolio&ref_feature=in_progress">View Devpost</a>
+  </p>
+ 
+</p>
 
-## Inspiration
+</br>
 
-In a digital world where news and information can be shared in seconds, it can be hard to keep track of the many issues and crises that we should concern ourselves with. As well-meaning citizens of the world who also lead busy lives, we found this to be a common predicament that we faced. Thus, we came up with takeAction! in order to alleviate this problem.
+***
 
-## What it does
+## Description
 
-takeAction! is an extension for the Google Chrome Browser that the user can click on while viewing an article about a world issue such as COVID-19, the Black Lives Matter movement, or climate change. When it is clicked, it will give links for petitions and movements that the user can sign and participate in to help combat the issue. For example, upon viewing an article about carbon emissions, if the user clicks on our Chrome Extension, they will be given links such as petitions for the government to change their environmental policies.
+### Inspiration
 
-## How I built it
+With the internet’s increasing influence on people’s lives, the internet has changed the fundamental nature in which we communicate and consume information.
 
-Using Python for the backend and React Library with JavaScript for the frontend, we applied machine learning training in order for our program to detect the issue and provide links for petitions/movements.
+Although there is a vast amount of information available with just an internet connection, there are many problems we face when interacting with news online. Some of these include too much information, irresponsible headlines/reporting, and a lack of ways to act on the information you read. **This is a particularly big issue when it comes to reporting on mental health and suicide.** Studies have shown that the way we talk about suicide publicly can have astounding consequences. 
 
-## Challenges I ran into
+### How it works
 
-We found it particularly challenging to build the actual data sets that we used for ML training, as these comprised of text documents that were easily thousands of lines long. The program took a while to accept the data sets as well.
-Additionally, we had to scrape hundreds of related websites in order to build an accurate model for our purposes.
+<a><img src="https://user-images.githubusercontent.com/33183884/132998483-45906c03-d5b2-442d-805d-b4f5991ead44.png" width=700></a>
 
-## Accomplishments that I'm proud of
+TakeAction is a google chrome extension that analyzes a webpage the user is currently on. Machine learning is then used to analyze the content of the webpage and detect if there is unethical or misleading reporting regarding mental health or suicide. If it is detected, articles are provided to the user to explain the misunderstood aspects of mental illness that are often exacerbated by the media.
 
-After hours of hard work, we were extremely proud to see our program respond to the ML training via the data sets. We were also happy with our frontend Chrome Extension functionality, as it is the fastest way that the widest group of users would conveniently be able to use our powerful tool.
+The extension also offers trusted organizations that the user can truly take action by donating to. Thus, our solution works in two ways: spreading awareness for mental health and the truth about suicide, and then bringing real change.
 
-## What I learned
+## Demo
 
-Prior to this project, a lot of our team members had little to no experience with ML, but as we dived into this project we learned valuable skills. The project was also a unique opportunity for us to brush up on our Python, React, and JavaScript skills.
+Click on the image below to access a Youtube video of the demo.
 
-## What's next for takeAction!
+  <a href="https://youtu.be/OB0jeGnNiqw"><img src="https://user-images.githubusercontent.com/33183884/132998666-fb2d4120-d671-4ff2-abec-86b019adedd8.png" alt="TakeAction Demo - Click to watch!" width=700></a>
 
-In the future, we hope to hone our project further by improving the accuracy of the ML model, and have it return links to resources that are both directly and indirectly related to the article's core issue. This would allow for the user to identify with the issue more deeply and get involved in more nuanced ways.
+
+## Features
+
+
+
+## Technologies
+
+
+
+## Execution
+
+
+
+## Authors
+
+Ivan Mudarth (@ivanmudarth)
+
+Andy Chen (@AndyKChen)
+
