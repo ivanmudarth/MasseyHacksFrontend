@@ -41,22 +41,34 @@ Click on the image below to access a Youtube video of the demo.
 
   <a href="https://youtu.be/OB0jeGnNiqw"><img src="https://user-images.githubusercontent.com/33183884/132998666-fb2d4120-d671-4ff2-abec-86b019adedd8.png" alt="TakeAction Demo - Click to watch!" width=700></a>
 
-
-## Features
-
-
-
 ## Technologies
+* React
+* Javascript
+* Tensorflow
+* Python
+* Kubernetes
+* Docker
+* Google Cloud
 
+Note: this repo only contains frontend code. Backend source code can be found [here](https://github.com/ivanmudarth/TakeAction-backend).
 
+## Executing program
 
-## Execution
-
-
+Download dependencies:
+```
+npm install
+```
+Execute:
+```
+npm run build
+```
+Follow [these](https://developer.chrome.com/docs/extensions/mv3/getstarted/#manifest) steps to install the extension. 
 
 ## Authors
 
 Ivan Mudarth (@ivanmudarth)
 
 Andy Chen (@AndyKChen)
+
+Oren Leung (@OrenLeung)
 
